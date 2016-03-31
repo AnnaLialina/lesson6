@@ -1,0 +1,93 @@
+*, html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: "Arial", sans-serif;
+	background: #f1f1f1;
+}
+header, section {
+	max-width: 1050px;
+	margin: auto;
+}
+header {
+	padding: 85px 0px 90px;
+}
+header .search_submit {
+	background: url('search/favicon.png') no-repeat top left;
+	background-size: cover;
+	width: 80px;
+	height: 80px;
+	border: none;
+	display: inline;
+	background-color: #f1f1f1;
+}
+ul {
+	list-style: none;
+}
+.column ul li {
+	background-color: #ebebed;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-bottom: 4px;
+	color: #cccccc;
+	padding: 12px;
+	
+}
+
+.column ul li img {
+	display: inline-block;
+	width: 20%;
+	vertical-align: middle;
+}
+
+.column ul li span {
+	display: inline-block;
+	width: 80%; 
+	vertical-align: middle;
+	padding-left: 10px; 
+}
+.column:first-child li img {
+	border-radius: 50%;
+}
+
+*:focus {
+	outline: none;
+}
+.column {
+	vertical-align: top;
+	width: 33.33%;
+	display: inline-block;
+	margin-right: -5px;
+	padding-right: 50px;
+}
+.column h2 {
+	color: #cccccc;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+header .search_field {
+	font-size: 80px;
+	color: #cccccc;
+	font-weight: bold;
+	border: none;
+	display: inline;
+	max-width: 80%
+
+}
+header .search_field:-webkit-input-placeholder {
+	color: #cccccc;
+}
+header .search_field::-webkit-input-placeholder {
+	color: #cccccc;
+}
+header .search_field:-moz-placeholder {
+	color: #c2c2c2;
+}
+header .search_field::-moz-placeholder {
+	color: #c2c2c2;
+}
